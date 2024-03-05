@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Online Payment-Page</title>
+	<link rel="stylesheet" href="assets/css/pay.css">
+</head>
+<body>
+	<header>
+        <div class="div_1">
+            <p class="p_1">
+                <a href="index.html">Home</a><br>
+                <a href="meetings.html">Departments</a><br>
+                <a href="timetable.html">Timetable</a><br>
+            </p>
+        </div>
+    </header>
+	<div class="container">
+		<form action="register.html">
+			<div class="row">
+				<div class="col">
+					<h3 class="title">
+						Student Billing Info
+					</h3>
+					<div class="inputBox">
+						<label for="number">
+							Student Number
+						</label>
+						<input type="text" id="name" placeholder="Enter Student Number" required>
+					</div>
+					<div class="inputBox">
+						<label for=fname">
+							First Name
+						</label>
+						<input type="text" placeholder="Enter your First Name" required>
+					</div>
+					<div class="inputBox">
+						<label for=lname">
+							Last Name
+						</label>
+						<input type="text" placeholder="Enter your Last Name" required>
+					</div>
+					<div class="inputBox">
+						<label for="email">
+							Telephone Number
+						</label>
+						<input type="text" id="email" placeholder="Enter Telephone number" required>
+					</div>
+					<div class="inputBox">
+						<label for="">Level</label>
+						<select name="" id="">
+							<option value="">Choose Level</option>
+							<option value="January">Level 100</option>
+							<option value="February">Level 200</option>
+							<option value="March">Level 300</option>
+							<option value="April">Level 400</option>
+						</select>
+					</div>
+					<div class="col">
+						<h3 class="title">Payment</h3>
+						<div class="inputBox">
+							<label for="">Department</label>
+							<select name="" id="">
+								<option value="">Cash</option>
+								<option value="">Mobile Money</option>
+							</select>
+						</div>
+						<div class="inputBox">
+							<label for="amount">
+								Amount
+							</label>
+							<input type="text" id="cardName" placeholder="Enter the payment Amount" required>
+						</div>
+					</div>
+				</div>
+			</div>
+			<input type="submit" value="Confirm Payment" class="submit_btn">
+		</form>
+	</div>
+	<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
